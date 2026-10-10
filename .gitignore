@@ -12,3 +12,6 @@ target/
 
 # Logs & temp files
 *.log
+
+# Ignore actual database credentials
+src/main/resources/db.properties
