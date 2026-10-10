@@ -1,0 +1,14 @@
+# Maven build target directory
+target/
+*.war
+*.jar
+*.class
+
+# IDE configurations
+.settings/
+.project
+.classpath
+.vscode/
+
+# Logs & temp files
+*.log
