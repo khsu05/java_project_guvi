@@ -86,7 +86,7 @@
         /* Main Pink Hero Section (Matches Wireframe Body) */
         .hero-canvas {
             flex: 1;
-            background: linear-gradient(135deg, #ffb6c1 0%, #ffc8d3 50%, #f472b6 100%);
+            background: linear-gradient(135deg, #6726e0 0%, #647cc0 50%, #6549e4 100%);
             display: flex;
             flex-direction: column;
             align-items: center;
