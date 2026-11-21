@@ -1,6 +1,6 @@
 # Enterprise Multi-Role E-Commerce Platform
 
-A role-based e-commerce web application built with **Java 21, Jakarta Servlets, JSP/JSTL, JDBC, MySQL, and Apache Tomcat**.
+A role-based e-commerce web application built with **Java 25, Jakarta Servlets, JSP/JSTL, JDBC, MySQL, and Apache Tomcat**.
 
 The project is intentionally implemented without high-level frameworks such as Spring Boot or Hibernate to demonstrate strong fundamentals in **HTTP request handling, MVC architecture, JDBC persistence, session management, authorization, transaction processing, and concurrent inventory management**.
 
@@ -153,7 +153,7 @@ Authorization is enforced centrally rather than duplicated across individual JSP
 
 | Component          | Technology            |
 | ------------------ | --------------------- |
-| Language           | Java 21               |
+| Language           | Java 25               |
 | Web Layer          | Jakarta Servlets 6.0  |
 | View Layer         | JSP / JSTL            |
 | Application Server | Apache Tomcat 10.1+   |
@@ -161,7 +161,7 @@ Authorization is enforced centrally rather than duplicated across individual JSP
 | Persistence        | JDBC                  |
 | Database Driver    | MySQL Connector/J 8.4 |
 | Password Hashing   | jBCrypt 0.4           |
-| Build System       | Apache Maven 3.8+     |
+| Build System       | Apache Maven 3.9+     |
 | Architecture       | MVC + DAO             |
 
 ---
@@ -527,8 +527,8 @@ DB_PASSWORD
 
 Install:
 
-* JDK 21
-* Maven 3.8+
+* JDK 25
+* Maven 3.9+
 * MySQL 8.0+
 * Apache Tomcat 10.1+
 
